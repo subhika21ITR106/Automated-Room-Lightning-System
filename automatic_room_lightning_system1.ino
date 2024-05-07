@@ -4,7 +4,6 @@ const int ldrPin = A0;
 const int ledPin = 13;
 // Define the threshold value for light intensity
 const int threshold = 1020; // Adjust this value according to your environment
-
 void setup() {
   // Set the LED pin as an output
   pinMode(ledPin, OUTPUT);
